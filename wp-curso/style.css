@@ -1,0 +1,97 @@
+/*
+Theme Name: Cursos WP
+Theme URI: http://localhost
+Description: Site para curso de WP 
+Author: Nicholas Fonseca
+Author URI: http://locahost
+version: 1.0
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #bbb;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.header {
+    height: 600px;
+    background: url('assets/images/Canva\ -\ Black\ Classic\ Telephone.jpg') center top;
+    background-size: cover;
+    padding: 10px 0px;
+}
+
+.header h1{
+    margin: 0;
+}
+
+.header h1 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .info {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #fff;
+    background-color: rgba(2, 2, 2, 0.8);
+    display: block;
+}
+.header .info h2{
+    color: #fff;
+}
+
+.header .info p {
+    font-weight: lighter;
+}
+
+.custom-button {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #025555;
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
+}
+
+.blog {
+    padding: 10px 0px;
+}
+.blog h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    color: #222;
+}
+.list-posts{
+    display: flex;
+    flex-flow: row;
+    justify-items: center;
+    justify-content: center;
+    max-height: 300px;
+}
+div.list-posts:nth-child(odd) {
+    flex-flow: row-reverse;
+}
+.list-posts img{
+    width: 200px;
+    max-height: 100%;
+}
+.box-content-post {
+    background-color: #fff;
+    float: right;
+    width: 500px;
+    padding: 10px;
+}
